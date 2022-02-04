@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-export default function SearchBar() {
+export default function SearchBar({mediaType}) {
  return (
      <>
     <div className="d-md-flex mb-3 text-center">
